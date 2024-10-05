@@ -1,3 +1,5 @@
+<img id = "logo" src = "logo.png">
+
 # scientist
 Contains files for scientific data
 
