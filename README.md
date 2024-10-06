@@ -1,4 +1,4 @@
-<img id = "logo" src = "logo.png">
+<img id = "logo" src = "assets/logo.png">
 
 # scientist
 Contains files for scientific data
