@@ -9,7 +9,7 @@ x = y = [i for i in field]
 z = [behavior(xi, yi) for xi in x, yi in y]
 
 # Plot the surface
-surface(x, y, z, xlabel="X", ylabel="Y", zlabel="Z", title="2D Surface Plot") 
+surface(x, y, z, xlabel="X", ylabel="Y", zlabel="Z", title="QFT") 
 
 end
 
