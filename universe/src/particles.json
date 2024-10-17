@@ -1,0 +1,22 @@
+{
+    "red": {
+        "mass": 1,
+        "color": "#FF0000",
+        "speed": 1
+    }, 
+    "blue": {
+        "mass": -1,
+        "color": "#B0E0E6",
+        "speed": 2
+    },
+    "photon": {
+        "mass": 0,
+        "color": "#FFFF00",
+        "speed": 299792458
+    },
+    "random": {
+        "mass": "Math.random()",
+        "color": "colors=['green', 'purple', 'lightblue']; array[Math.floor(Math.random() * array.length)];",
+        "speed": "Math.random()"
+    }
+}
