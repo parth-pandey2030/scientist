@@ -176,6 +176,6 @@ ep = PLANCK_ENERGY = mp * c ** 2
 Tp = PLANCK_TEMPERATURE = PLANCK_ENERGY / k
 qp = PLANCK_CHARGE = sqrt(4 * pi * vacuum_permittivity * hbar * c)
 
-# Other
+# Other     
 Λ = COSMOLOGICAL_CONSTANT = lp ** -2 * 10e-122
-t = symbols('t')
+t = symbols('t')    

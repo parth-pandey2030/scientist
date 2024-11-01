@@ -1,4 +1,4 @@
-{
+const particles = {
     "red": {
         "mass": 1,
         "color": "#FF0000",
@@ -16,7 +16,9 @@
     },
     "random": {
         "mass": "Math.random()",
-        "color": "colors=['green', 'purple', 'lightblue']; array[Math.floor(Math.random() * array.length)];",
+        "color": ['green', 'purple', 'lightblue'][Math.floor(Math.random * 3)],
         "speed": "Math.random()"
     }
-}
+};
+
+export default particles
